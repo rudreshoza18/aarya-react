@@ -1,0 +1,16 @@
+.Dflex{
+     display: flex;
+     background-color: grey;
+}
+.Card{
+     height: 300px;
+     width: 600px;
+     border: 5px dotted red;
+     padding: 10px;
+     margin: 0px 0px 100px 0px ;
+}
+.Body{
+     background-color: lightgrey;
+     color: maroon;
+     height: 60%;
+}

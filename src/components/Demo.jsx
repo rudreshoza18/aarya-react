@@ -25,7 +25,8 @@ const Demo = (props) => {
       <Test color={d.color} code={d.value}  ></Test>
       )} */}
       {demoData.map((val)=>
-      <Test color={val.color} code={val.value}/>
+      <Test key={val.userId} id={val.id} body={val.body} title={val.title}>
+      </Test>
       )}
 
     </div>
