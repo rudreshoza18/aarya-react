@@ -4,7 +4,7 @@ import Demo from './components/Demo.jsx';
 import Test from './components/Test';
 function App() {
   console.debug('APP JS')
-  let data = "Hi I'm developer"
+  let data = "Hi I'm not a developer"
   const fakeData = [
     {
       "userId": 1,
